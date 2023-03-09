@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Peralta&family=Poppins:wght@300&family=Roboto&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3d56471606.js" crossorigin="anonymous"></script>
+  <title>solomon site</title>
+</head>
+
+<body>
+
+  <section class="info">
+    <div class="alll-info">
+      <div class="container">
+
+        <!-- <div class="canvas"> -->
+
+        <div class="headermobileleft">
+          <button class="btn toggle-button-left" onclick="fauntain()">
+            <i class="fa-solid fa-user"></i>
+          </button>
+        </div>
+
+        <div class="headwr">
+          <img src="./image folder/houzez.png" alt="">
+        </div>
+
+        <div class="iconified">
+          <a href="#" class="icon-sec"><i class="fa-solid fa-user"></i></a>
+        </div>
+
+      <div class="all-section center" id="chineduvic">
+
+
+        <div class="dropDown">
+          <a class="nav-link dropdown-toggle" onclick="showDropDown()" href="#" class="dopt">Home
+            <!-- DESKTOP-JR2BSVP 8347
+                    1937:Rh0 -->
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+
+          <div class="all-menu" id="dropDOWNmenu">
+            <ul>
+              <button class="canclebtn" onclick="hideDropDown()">&times;</button>
+              <li><a href="">HOME Default</a></li>
+              <li><a href="">WITH COPTION FORM</a></li>
+              <li><a href="">WITH MAP</a></li>
+              <li><a href="">WITH VIDEO</a></li>
+              <li><a href="">HOME SPLASH</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropownnin">
+          <a class="nav-link dropdown-toggle" onclick="onshowDropDown()" href="#" class="dpt">PROPERTIES
+            <!-- DESKTOP-JR2BSVP 8347
+                    1937:Rh0 -->
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+
+          <div class="all-menu" id="volontry">
+            <ul>
+              <button class="commenter" onclick="onhideDropDow()">&times;</button>
+              <li><a href="">GRID LAYOUT</a></li>
+              <li><a href="">WITH MAP</a></li>
+              <li><a href="">WITH TABS</a></li>
+              <li><a href="">WITH CONTENT TOP</a></li>
+              <li><a href="">ELEMENTOR</a></li>
+              <li><a href="">WITH FEATURED ON TOP</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="automenu">
+          <a class="nav-link dropdown-toggle" onclick="intershow()" href="#" class="dopt">PROPERTY
+            <!-- DESKTOP-JR2BSVP 8347
+                    1937:Rh0 -->
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+
+          <div class="all-menu" id="sectiond">
+            <ul>
+              <button class="view-section" onclick="interhide()">&times;</button>
+              <li><a href="">DEFAULT LAYOUT</a></li>
+              <li><a href="">PROPERTY LAYOUT V1</a></li>
+              <li><a href="">PROPERTY LAYOUT V2</a></li>
+              <li><a href="">PROPERTY LAYOUT V3</a></li>
+              <li><a href="">PROPERTY LAYOUT V4</a></li>
+              <li><a href="">PROPERTY LAYOUT V5</a></li>
+              <li><a href="">PROPERTY LAYOUT V6</a></li>
+            </ul>
+          </div>
+        </div>
+
+        
+        <div class="deppdown">
+          <a class="nav-link dropdown-toggle" onclick="showDropDownlist()" href="#" class="dopt">OTHERS
+            <!-- DESKTOP-JR2BSVP 8347
+                    1937:Rh0 -->
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+
+          <div class="all-menu" id="allveiwsection">
+            <ul>
+              <button class="viewway" onclick="hideDropDownlist()">&times;</button>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">CONTENT</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">BLOG</a></li>
+              <li><a href="">RESIDENTAIL</a></li>
+              <li><a href="">COMMENCIAL</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="call-section">
+          <a href="#"><i class="fa-solid fa-phone-volume"></i> (800) 987 6543</a>
+          <a href="#" class="icon-section"><i class="fa-solid fa-user"></i></a>
+          <a href="#" class="listing">CREATE A LISTING</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- <canvas id="mortgage-calculator-chart" width="200" height="200" style="display: block;"></canvas> -->
+  </section>
+
+  <script>
+    const dropDown = document.getElementById('dropDOWNmenu');
+    const showDropDown = () => {
+      dropDown.style.display = 'block';
+    }
+
+    const hideDropDown = () => {
+      dropDown.style.display = 'none'
+    }
+  </script>
+
+  <script>
+    const dropownnin = document.getElementById('volontry');
+    const onshowDropDown = () => {
+      dropownnin.style.display = 'block';
+    }
+
+    const onhideDropDow = () => {
+      dropownnin.style.display = 'none';
+    } 
+  </script>
+
+
+  <script>
+    const automenu = document.getElementById('sectiond');
+    const intershow = () => {
+      automenu.style.display = 'block';
+    }
+
+    const interhide = () => {
+      automenu.style.display = 'none';
+    }
+  </script>
+
+  <script>
+    const chioma = document.getElementById('colldropdown');
+    const colldropshow = () => {
+      chioma.style.display = 'block';
+    }
+
+
+
+    const colldrophide = () => {
+      chioma.style.display = 'none';
+    }
+  </script>
+
+
+  <script>
+    const deppdown = document.getElementById('allveiwsection');
+    const showDropDownlist = () => {
+      deppdown.style.display = 'block';
+    }
+
+    const hideDropDownlist = () => {
+      deppdown.style.display = 'none';
+    }
+  </script>
+
+  <script>
+    const headermobileleft = document.getElementById('chineduvic')
+    const fauntain = () => {
+      headermobileleft.style.display = 'block';
+    }
+
+  // const fauntain = () => {
+  //   headermobileleft .style.display = 'none';
+  // }
+  </script>
+
+</body>
+
+</html>
